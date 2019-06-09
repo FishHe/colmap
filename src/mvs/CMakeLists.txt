@@ -54,7 +54,7 @@ if(CUDA_ENABLED)
         patch_match.h patch_match.cc
         patch_match_cuda.h patch_match_cuda.cu
 		acmh_patch_match.h acmh_patch_match.cc
-		acmh_patch_match_cuda.h acmh_patch_match_cuda.cc
+		acmh_patch_match_cuda.h acmh_patch_match_cuda.cu
     )
 
     # MSVC/NVCC cannot compile the Boost unit test suite.

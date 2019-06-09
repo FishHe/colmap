@@ -61,6 +61,9 @@ if(CUDA_ENABLED)
 
     # Fix for Ubuntu 16.04.
     add_definitions("-D_MWAITXINTRIN_H_INCLUDED")
+	
+	# Fix for CGAL in VCPKG.
+	add_definitions("-DCGAL_HEADER_ONLY")
 
     if(MSVC)
         # Avoid pulling in too many header files through <windows.h>

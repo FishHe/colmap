@@ -30,5 +30,6 @@
 # Author: Johannes L. Schoenberger (jsch-at-demuc-dot-de)
 
 set(FOLDER_NAME "tools")
+COLMAP_ADD_EXECUTABLE(acmh_patch_match acmh_patch_match.cc)
 
 # COLMAP_ADD_EXECUTABLE(example example.cc)
